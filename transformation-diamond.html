@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+    
+    .div{
+       
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        animation-name:ONE;
+        animation-duration: 10s;
+        position: relative;
+        left: -10px;
+        top: 250px;
+        animation-iteration-count: infinite;
+    }
+    .text{
+        text-align: center;
+        font-size: 25px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    @keyframes ONE{
+        20%{background-color: blue ;left: -10px;top:250px ;}
+        40%{background-color: yellow ;left:45% ;top: 525px ;}
+        60%{background-color: red;left: 93%;top:250px;}
+        80%{background-color: green;left: 45%;top: -10px;}
+        100%{background-color: pink;left: -10xp;top: 250px;}
+    }
+</style>
+</head>
+<body>
+    <div class="div"><p class="text">Hello</p></div>
+</body>
+</html>
